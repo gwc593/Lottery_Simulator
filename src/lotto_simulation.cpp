@@ -10,6 +10,7 @@ int main()
 	int num_draws;
 	int matches[7] = {0};
 	double progress = 0;
+
 	if(!myticket.set_numbers()){
 		return 1;
 	}
